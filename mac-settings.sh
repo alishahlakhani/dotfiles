@@ -13,9 +13,6 @@ defaults write com.apple.screencapture "show-thumbnail" -bool true # Display the
 defaults write com.apple.screencapture "include-date" -bool false # Don't include date in the screenshot file name
 defaults write com.apple.screencapture "type" -string "jpg"
 
-#======================Safari settings =================
-defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool "true" # Show full website address.
-
 #======================Finder settings =================
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool true # Show filename extensions 
 defaults write com.apple.finder "AppleShowAllFiles" -bool "true" # Show hidden files in the Finder. 
@@ -23,7 +20,6 @@ defaults write com.apple.finder "ShowPathbar" -bool true # Show path bar in the 
 defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv" # Set the default view style for folders without custom setting to list view
 defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true" # Keep folders on top when sorting by name
 defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf" # Set the default search scope when performing a search in Finder to the current folder
-defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true" # Always show folder icon before title in the title bar
 
 #======================Desktop settings =================
 defaults write com.apple.finder "_FXSortFoldersFirstOnDesktop" -bool "true" # Keep folders on top when sorting
@@ -43,3 +39,36 @@ defaults write com.apple.TextEdit "RichText" -bool false # Set default document 
 
 #======================Activity Monitor settings =================
 defaults write com.apple.ActivityMonitor "IconType" -int "5" # Choose what information should be shown in the app's Dock icon, if any
+
+# Set vscode as default application for all my source code files
+local extensions=(
+    ".c"
+    ".cpp"
+    ".js"
+    ".jsx"
+    ".ts"
+    ".tsx"
+    ".json"
+    ".md"
+    ".sql"
+    ".html"
+    ".css"
+    ".scss"
+    ".sass"
+    ".py"
+    ".sum"
+    ".rs"
+    ".go"
+    ".sh"
+    ".log"
+    ".toml"
+    ".yml"
+    ".yaml"
+    "public.plain-text"
+    "public.unix-executable"
+    "public.data"
+)
+
+for ext in $extensions; do
+    duti -s com.microsoft.VSCode $ext all
+done

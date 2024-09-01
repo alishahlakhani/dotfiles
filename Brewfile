@@ -4,21 +4,24 @@ tap "homebrew/services"
 tap "jesseduffield/lazygit"
 
 # Core install
-brew "stow"
-brew "git"
-brew "bat"
-brew "wget"
-brew "fnm"
-brew "tree"
+brew "stow" # Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "git" # Distributed revision control system
+brew "bat" # Clone of cat(1) with syntax highlighting and Git integration
+brew "wget" # Internet file retriever
+brew "fnm" # Fast and simple Node.js version manager
+brew "tree" # Display directories as trees (with optional color/HTML output)
+brew "duti" # Select default apps for documents and URL schemes on macOS
+brew "fzf" # Command-line fuzzy finder written in Go
 
 # Dev install
-brew "node"
-brew "pnpm"
+brew "node" # Platform built on V8 to build network applications
+brew "pnpm" # Fast, disk space efficient package manager
 cask "visual-studio-code"
 cask "postman"
 cask "raycast"
 cask "iterm2"
 cask "github"
+cask "brave-browser"
 
 # Misc Install
 cask "discord"
@@ -37,6 +40,7 @@ cask "crossover"
 cask "little-snitch"
 
 # Install apps from Appstore using mas
-brew "mas"
+brew "mas" # Mac App Store command-line interface
+mas 'Amphetamine', id: 937_984_704
 mas 'Beepify', id: 147_464_4374
 mas 'Dashlane', id: 517_914_548

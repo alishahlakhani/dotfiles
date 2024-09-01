@@ -1,0 +1,146 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[html-eex]": {
+    "editor.defaultFormatter": "animus-coop.vscode-elixir-mix-formatter"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[nginx]": {
+    "editor.defaultFormatter": "raynigon.nginx-formatter"
+  },
+  "[phoenix-heex]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "autoRestart.fileGlobForTypescript": "**/tsconfig.{json,app.json,app.js,js,ts,prisma}",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "docker.showStartPage": false,
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.largeFileOptimizations": false,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.renameOnType": true,
+  "editor.suggestSelection": "first",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.wordWrapColumn": 200,
+  "elixirLS.dialyzerEnabled": true,
+  "elixirLS.enableTestLenses": true,
+  "elixirLS.fetchDeps": false,
+  "elixirLS.signatureAfterComplete": false,
+  "elixirLS.suggestSpecs": false,
+  "emmet.includeLanguages": {
+    "elixir": "html",
+    "html-eex": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "errorLens.codeLensOnClick": "showProblemsView",
+  "errorLens.delayMode": "debounce",
+  "errorLens.gutterIconsEnabled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.excludeGitIgnore": false,
+  "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreRebaseWarning": true,
+  "git.openRepositoryInParentFolders": "always",
+  "github-enterprise.uri": "https://github.com/madeofzero/",
+  "gitlens.defaultDateFormat": "Do MMM YYYY (h:mmA)",
+  "gitlens.defaultDateShortFormat": "Do MMM YYYY",
+  "gitlens.views.repositories.files.layout": "tree",
+  "grunt.autoDetect": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "json.maxItemsComputed": 15000,
+  "liveSassCompile.settings.generateMap": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "lldb.suppressUpdateNotifications": true,
+  "nginx-conf-hint.format.align": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "remoteHub.commitDirectlyWarning": "off",
+  "scm.workingSets.enabled": true,
+  "security.workspace.trust.enabled": false,
+  "settingsSync.ignoredExtensions": ["rajeshrenato.workspace-colors"],
+  "tabnine.experimentalAutoImports": true,
+  "tailwindCSS.includeLanguages": {
+    "html": "HTML",
+    "javascript": "javascript"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
+  "workbench.iconTheme": "helium-icon-theme",
+  "[plaintext]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF"
+}

@@ -19,5 +19,4 @@ I used a mixture of [this](https://blog.alyssaholland.me/dotfiles-management) & 
 1. Open terminal
 2. Run `chmod +x setup.sh mac-settings.sh` to make these two file executable.
 3. Run `./setup.sh` command to install homebrew packages + mac apps from AppStore
-4. Run `./mac-settings.sh` command to set defaults for your laptop.
-5. All done...
+4. All done...
