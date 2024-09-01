@@ -24,6 +24,7 @@ node_modules/*
 # OSX generated files
 .AppleDB
 .AppleDesktop
+.DS_Store
 .AppleDouble
 .DS_Store
 .DocumentRevisions-V100

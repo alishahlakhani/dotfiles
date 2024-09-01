@@ -26,6 +26,7 @@ cask "docker"
 cask "amazon-q"
 
 # Misc Install
+cask "appcleaner"
 cask "discord"
 cask "google-drive"
 cask "setapp"
