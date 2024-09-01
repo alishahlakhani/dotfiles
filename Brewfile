@@ -22,6 +22,8 @@ cask "raycast"
 cask "iterm2"
 cask "github"
 cask "brave-browser"
+cask "docker"
+cask "amazon-q"
 
 # Misc Install
 cask "discord"

@@ -5,6 +5,9 @@
   "[elixir]": {
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
   },
+  "[graphql]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
   "[html-eex]": {
     "editor.defaultFormatter": "animus-coop.vscode-elixir-mix-formatter"
   },
@@ -35,6 +38,9 @@
   },
   "[phoenix-heex]": {
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[plaintext]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
@@ -131,16 +137,10 @@
     "FIG_NEW_SESSION": "1",
     "Q_NEW_SESSION": "1"
   },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Shades of Purple (Super Dark)",
-  "workbench.iconTheme": "helium-icon-theme",
-  "[plaintext]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[graphql]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-  },
-  "terminal.integrated.fontFamily": "MesloLGS NF"
+  "workbench.iconTheme": "helium-icon-theme"
 }

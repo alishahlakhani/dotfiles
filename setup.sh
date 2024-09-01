@@ -32,4 +32,8 @@ fi
 
 # Apply mac defaults
 ./mac-settings.sh
+
+# Apply node defaults
+./node-setup.sh
+
 echo "✅ All done!"
