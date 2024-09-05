@@ -12,6 +12,7 @@ brew "fnm" # Fast and simple Node.js version manager
 brew "tree" # Display directories as trees (with optional color/HTML output)
 brew "duti" # Select default apps for documents and URL schemes on macOS
 brew "fzf" # Command-line fuzzy finder written in Go
+brew "asimov" # Automatically exclude development dependencies from Time Machine backups
 
 # Dev install
 brew "node" # Platform built on V8 to build network applications
@@ -40,10 +41,10 @@ cask "notion"
 cask "applite"
 cask "adobe-creative-cloud"
 cask "crossover"
-cask "little-snitch"
 
 # Install apps from Appstore using mas
 brew "mas" # Mac App Store command-line interface
 mas 'Amphetamine', id: 937_984_704
 mas 'Beepify', id: 147_464_4374
 mas 'Dashlane', id: 517_914_548
+mas 'Microsoft Outlook', id: 985_367_838

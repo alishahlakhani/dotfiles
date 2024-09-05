@@ -142,5 +142,6 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Shades of Purple (Super Dark)",
-  "workbench.iconTheme": "helium-icon-theme"
+  "workbench.iconTheme": "helium-icon-theme",
+  "tailwind-fold.autoFold": true
 }
