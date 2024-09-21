@@ -127,6 +127,7 @@
   "security.workspace.trust.enabled": false,
   "settingsSync.ignoredExtensions": ["rajeshrenato.workspace-colors"],
   "tabnine.experimentalAutoImports": true,
+  "tailwind-fold.autoFold": true,
   "tailwindCSS.includeLanguages": {
     "html": "HTML",
     "javascript": "javascript"
@@ -142,6 +143,5 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Shades of Purple (Super Dark)",
-  "workbench.iconTheme": "helium-icon-theme",
-  "tailwind-fold.autoFold": true
+  "workbench.iconTheme": "helium-icon-theme"
 }

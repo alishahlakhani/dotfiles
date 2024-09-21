@@ -38,9 +38,10 @@ cask "steam"
 cask "alt-tab"
 cask "maccy"
 cask "notion"
-cask "applite"
 cask "adobe-creative-cloud"
 cask "crossover"
+cask "raindropio"
+cask "macs-fan-control"
 
 # Install apps from Appstore using mas
 brew "mas" # Mac App Store command-line interface
