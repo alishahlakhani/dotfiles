@@ -25,6 +25,8 @@ cask "github"
 cask "brave-browser"
 cask "docker"
 cask "amazon-q"
+cask "postgres-unofficial"
+
 
 # Misc Install
 cask "appcleaner"
