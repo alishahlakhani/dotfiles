@@ -15,6 +15,7 @@ brew "fzf" # Command-line fuzzy finder written in Go
 brew "asimov" # Automatically exclude development dependencies from Time Machine backups
 
 # Dev install
+brew "deno" # Secure runtime for JavaScript and TypeScript
 brew "node" # Platform built on V8 to build network applications
 brew "pnpm" # Fast, disk space efficient package manager
 cask "visual-studio-code"
