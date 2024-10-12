@@ -142,6 +142,11 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Shades of Purple (Super Dark)",
-  "workbench.iconTheme": "helium-icon-theme"
+  "workbench.colorTheme": "focus",
+  "workbench.iconTheme": "helium-icon-theme",
+  "remote.portsAttributes": {
+    "3000": {
+      "protocol": "http"
+    }
+  }
 }
