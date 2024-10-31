@@ -142,11 +142,14 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "focus",
+  "workbench.colorTheme": "Electron vue darker",
   "workbench.iconTheme": "helium-icon-theme",
   "remote.portsAttributes": {
     "3000": {
       "protocol": "http"
     }
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   }
 }

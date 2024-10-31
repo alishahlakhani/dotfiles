@@ -12,11 +12,11 @@ brew "fnm" # Fast and simple Node.js version manager
 brew "tree" # Display directories as trees (with optional color/HTML output)
 brew "asimov" # Automatically exclude development dependencies from Time Machine backups
 brew "themekit" # Automatically exclude development dependencies from Time Machine backups
+brew "only-switch" # Menubar is smaller, you only need an All-in-One switch.
 
 # Dev install
 brew "themekit" # Theme Kit is a cross-platform command line tool that you can use to build Shopify themes. To get up and running quickly with Theme Kit, follow the steps in this guide.
 brew "libreoffice" # Free cross-platform office suite, fresh version
-brew "deno" # Secure runtime for JavaScript and TypeScript
 brew "node" # Platform built on V8 to build network applications
 brew "pnpm" # Fast, disk space efficient package manager
 cask "visual-studio-code"
@@ -31,7 +31,6 @@ cask "postgres-unofficial"
 
 
 # Misc Install
-cask "appcleaner"
 cask "discord"
 cask "google-drive"
 cask "setapp"
@@ -46,6 +45,7 @@ cask "adobe-creative-cloud"
 cask "crossover"
 cask "raindropio"
 cask "macs-fan-control"
+cask "pearcleaner"
 
 # Install apps from Appstore using mas
 brew "mas" # Mac App Store command-line interface
@@ -54,3 +54,4 @@ mas 'Beepify', id: 147_464_4374
 mas 'Dashlane', id: 517_914_548
 mas 'Microsoft Outlook', id: 985_367_838
 mas 'Hidden Bar', id: 145_245_3066
+mas "Klack", id: 214_372_8525# Mac App Store command-line interface
