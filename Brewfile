@@ -46,6 +46,7 @@ cask "crossover"
 cask "raindropio"
 cask "macs-fan-control"
 cask "pearcleaner"
+cask "jordanbaird-ice"
 
 # Install apps from Appstore using mas
 brew "mas" # Mac App Store command-line interface
