@@ -2,8 +2,14 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
   "[elixir]": {
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
   },
   "[graphql]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
@@ -24,7 +30,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode",
@@ -122,10 +128,17 @@
   "lldb.suppressUpdateNotifications": true,
   "nginx-conf-hint.format.align": true,
   "prisma.showPrismaDataPlatformNotification": false,
+  "remote.portsAttributes": {
+    "3000": {
+      "protocol": "http"
+    }
+  },
   "remoteHub.commitDirectlyWarning": "off",
   "scm.workingSets.enabled": true,
   "security.workspace.trust.enabled": false,
-  "settingsSync.ignoredExtensions": ["rajeshrenato.workspace-colors"],
+  "settingsSync.ignoredExtensions": [
+    "rajeshrenato.workspace-colors"
+  ],
   "tabnine.experimentalAutoImports": true,
   "tailwind-fold.autoFold": true,
   "tailwindCSS.includeLanguages": {
@@ -142,14 +155,6 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Electron vue darker",
-  "workbench.iconTheme": "helium-icon-theme",
-  "remote.portsAttributes": {
-    "3000": {
-      "protocol": "http"
-    }
-  },
-  "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  }
+  "workbench.colorTheme": "Electron vue",
+  "workbench.iconTheme": "helium-icon-theme"
 }

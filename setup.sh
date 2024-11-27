@@ -12,7 +12,7 @@ if test ! $(which stow); then
     echo "🐐 Installing GNU Stow"
     brew install stow
 else
-    # Get the laptop type
+    # Stow files properly from --dir location to --target location.
     stow -v -R --adopt --dir=$HOME/dotfiles/configs --target=$HOME .
     echo "🚀 Stow complete!"
 fi
