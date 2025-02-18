@@ -145,6 +145,7 @@ esac
 # pnpm end
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 export PATH="/Users/Shared/DBngin/postgresql/17.0/bin:$PATH"
+export SSH_AUTH_SOCK=/Users/alishahlakhani/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
 . "/Users/alishahlakhani/.deno/env"
 # Initialize zsh completions (added by deno install script)
@@ -153,3 +154,6 @@ compinit
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/alishahlakhani/.lmstudio/bin"

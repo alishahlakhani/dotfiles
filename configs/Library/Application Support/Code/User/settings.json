@@ -81,6 +81,7 @@
   "editor.largeFileOptimizations": false,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
+  "editor.multiCursorLimit": 100000,
   "editor.renameOnType": true,
   "editor.suggestSelection": "first",
   "editor.tokenColorCustomizations": {
@@ -136,9 +137,7 @@
   "remoteHub.commitDirectlyWarning": "off",
   "scm.workingSets.enabled": true,
   "security.workspace.trust.enabled": false,
-  "settingsSync.ignoredExtensions": [
-    "rajeshrenato.workspace-colors"
-  ],
+  "settingsSync.ignoredExtensions": ["rajeshrenato.workspace-colors"],
   "tabnine.experimentalAutoImports": true,
   "tailwind-fold.autoFold": true,
   "tailwindCSS.includeLanguages": {
@@ -155,6 +154,24 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Electron vue",
-  "workbench.iconTheme": "helium-icon-theme"
+  "workbench.colorTheme": "Transparent Color Theme",
+  "workbench.iconTheme": "helium-icon-theme",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ]
 }
