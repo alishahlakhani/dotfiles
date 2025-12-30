@@ -10,4 +10,9 @@
 	required = true
 [user]
 	name = Ali Shah Lakhani
-	email = alishah.lakhani1@gmail.com
+	email = ali@madeofzero.com
+	signingkey = 30984560F63B32ED16E38C2303E1A0C2AF78C0F1
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg

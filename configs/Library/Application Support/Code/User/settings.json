@@ -3,7 +3,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[elixir]": {
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
@@ -27,7 +27,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
@@ -45,6 +45,9 @@
   "[phoenix-heex]": {
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
   },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
   "[plaintext]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -61,27 +64,87 @@
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
   "autoRestart.fileGlobForTypescript": "**/tsconfig.{json,app.json,app.js,js,ts,prisma}",
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF2D00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "!",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#3498DB",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "?",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#474747",
+      "italic": false,
+      "strikethrough": true,
+      "tag": "//",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF8C00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "todo",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#98C379",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "*",
+      "underline": false
+    }
+  ],
   "bracket-pair-colorizer-2.depreciation-notice": false,
+  "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+  "database-client.autoSync": true,
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
   "docker.showStartPage": false,
   "editor.accessibilitySupport": "off",
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.fontFamily": "Cascadia Code, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
   "editor.formatOnSave": true,
   "editor.largeFileOptimizations": false,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.multiCursorLimit": 100000,
+  "editor.quickSuggestionsDelay": 1,
   "editor.renameOnType": true,
   "editor.suggestSelection": "first",
   "editor.tokenColorCustomizations": {
@@ -108,6 +171,20 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.excludeGitIgnore": false,
+  "explorer.fileNesting.patterns": {
+    "*.db": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.s3db": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.ts": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "tsconfig.json": "tsconfig.*.json"
+  },
   "extensions.ignoreRecommendations": true,
   "files.insertFinalNewline": true,
   "git.autofetch": true,
@@ -116,9 +193,20 @@
   "git.ignoreRebaseWarning": true,
   "git.openRepositoryInParentFolders": "always",
   "github-enterprise.uri": "https://github.com/madeofzero/",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescriptreact": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "gitlens.defaultDateFormat": "Do MMM YYYY (h:mmA)",
   "gitlens.defaultDateShortFormat": "Do MMM YYYY",
   "gitlens.views.repositories.files.layout": "tree",
+  "go.toolsManagement.autoUpdate": true,
   "grunt.autoDetect": "on",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "json.maxItemsComputed": 15000,
@@ -144,34 +232,65 @@
     "html": "HTML",
     "javascript": "javascript"
   },
+  "tailwindcss-intellisense.trace.server": "messages",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.env.osx": {
     "CW_NEW_SESSION": "1",
     "FIG_NEW_SESSION": "1",
     "Q_NEW_SESSION": "1"
   },
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "Cascadia Code, Fira Code",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "todohighlight.keywords": [],
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Transparent Color Theme",
-  "workbench.iconTheme": "helium-icon-theme",
-  "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.js",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.tsx": "${capture}.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-    "*.sqlite": "${capture}.${extname}-*",
-    "*.db": "${capture}.${extname}-*",
-    "*.sqlite3": "${capture}.${extname}-*",
-    "*.db3": "${capture}.${extname}-*",
-    "*.sdb": "${capture}.${extname}-*",
-    "*.s3db": "${capture}.${extname}-*"
+  "windowColors.activityBarColorKnob": 0,
+  "windowColors.applyBranchColorToTabsAndStatusBar": "false",
+  "windowColors.askToColorizeRepoWhenOpened": true,
+  "windowColors.automaticBranchIndicatorColorKnob": 60,
+  "windowColors.branchConfigurationList": [
+    "^(bug/|bug-.*):red",
+    "^(feature/|feature-).*:green",
+    "^(?!(main|master)$).*:purple"
+  ],
+  "windowColors.colorEditorTabs": "false",
+  "windowColors.colorInactiveTitlebar": "true",
+  "windowColors.colorStatusBar": "false",
+  "windowColors.invertBranchColorLogic": "false",
+  "windowColors.removeManagedColors": "true",
+  "windowColors.repoConfigurationList": [
+    "github.com/madeofzero:#49038b",
+    "github.com/alishahlakhani:#010c9f"
+  ],
+  "windowColors.showBranchColumns": false,
+  "windowColors.showStatusIconWhenNoRuleMatches": false,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#5C0F12",
+    "titleBar.activeBackground": "#811519",
+    "titleBar.activeForeground": "#FEFBFB"
   },
-  "animations.Install-Method": "Apc Customize UI++",
-  "apc.imports": [
-    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
-  ]
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.colorTheme": "Best Themes - Github Dark",
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "dotenv.enableAutocloaking": false,
+  "lmstudio.baseUrl": "http://192.168.1.241:1234",
+  "lmstudio.model": "qwen/qwen3-vl-4b",
+  "lmstudio.maxTokens": 5000,
+  "universal-commit-assistant.provider": "lmstudio",
+  "universal-commit-assistant.lmstudio.baseUrl": "http://192.168.1.241:1234",
+  "universal-commit-assistant.systemPrompt": "You are a git commit message generator. Return ONLY the commit message with no additional text, explanations, or prefixes. Scope is set to \"safe-backend\"",
+  "cotab.llm.apiBaseURL": "http://192.168.1.241:1234",
+  "cotab.llm.localServerContextSize": 57344,
+  "cotab.llm.model": "qwen/qwen3-vl-4b",
+  "cotab.llm.localServerArg": "",
+  "cotab.llm.maxTokens": 35000,
+  "cotab.gettingStarted.hideOnStartup": true,
+  "notes.notesLocation": "/Users/alishahlakhani/Desktop/Notes",
+  "geminicodeassist.project": "soy-imprint-gww27",
 }

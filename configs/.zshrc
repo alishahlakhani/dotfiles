@@ -1,5 +1,5 @@
-# Amazon Q pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
+# Kiro CLI pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
 # Add deno completions to search path
 if [[ ":$FPATH:" != *":/Users/alishahlakhani/completions:"* ]]; then export FPATH="/Users/alishahlakhani/completions:$FPATH"; fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -8,6 +8,7 @@ if [[ ":$FPATH:" != *":/Users/alishahlakhani/completions:"* ]]; then export FPAT
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
@@ -87,7 +88,6 @@ plugins=(
     fnm
     aliases
     battery
-    # zsh-autosuggestions
     zsh-syntax-highlighting
     web-search
 )
@@ -125,10 +125,14 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(fnm env --use-on-cd --shell zsh)"
+
 alias nvm="fnm"
 alias pn="pnpm"
 alias curltime="curl -w \"@$HOME/dotfiles/scripts/@curl-format.txt\" -o /dev/null -s "
+# Open this file in VS Code
+alias oz='code ~/.zshrc'
+# Refreshes zsh profile
+alias ref='source ~/.zshrc'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -152,8 +156,11 @@ export SSH_AUTH_SOCK=/Users/alishahlakhani/Library/Containers/com.maxgoedjen.Sec
 autoload -Uz compinit
 compinit
 
-# Amazon Q post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
-
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/alishahlakhani/.lmstudio/bin"
+
+. "$HOME/.posthog/env"
+eval "$(fnm env --use-on-cd --shell zsh)"
+
+# Kiro CLI post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
